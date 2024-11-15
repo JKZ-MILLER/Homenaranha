@@ -1,0 +1,148 @@
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Aplica a fonte Bangers a todo o corpo do site */
+body {
+    font-family: 'Bangers', sans-serif;
+    background-color: #f8f8f8; /* Fundo neutro */
+    color: #333;
+}
+
+/* Para o título da página */
+h1, h2, h3, .banner__titulo, .carrossel__titulo, .tópicos__titulo, .contato__titulo, .rodapé__titulo {
+    font-family: 'Bangers', sans-serif;
+}
+
+/* Caso queira aplicar em outras seções específicas */
+.lista-menu__titulo, .descricao__titulo, .botões__ancora {
+    font-family: 'Bangers', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+.cabeçalho {
+    background-color: #d32f2f; /* Vermelho característico do Homem-Aranha */
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabeçalho__menu-hamburguer {
+    display: inline-block;
+    width: 30px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 5px 0;
+}
+
+.lista-menu__titulo {
+    font-weight: bold;
+    color: #ffeb3b; /* Amarelo vibrante do uniforme do Homem-Aranha */
+    margin-bottom: 10px;
+}
+
+.lista-menu__link {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.lista-menu__link:hover {
+    color: #d32f2f; /* Vermelho do Homem-Aranha */
+}
+
+/* Banner */
+.banner {
+    background-image: url('img/supershock-bg.jpg'); /* Imagem de fundo, pode ser substituída */
+    background-size: cover;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.banner__titulo {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #ffeb3b; /* Amarelo vibrante */
+}
+
+.banner__texto {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.banner__pesquisa {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 400px;
+}
+
+/* Carrossel */
+.carrossel__titulo {
+    font-size: 2em;
+    color: #d32f2f; /* Vermelho do Homem-Aranha */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Cartões */
+.card {
+    background-color: #fff;
+    border: 2px solid #ffeb3b; /* Amarelo vibrante */
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.descrição__titulo {
+    font-size: 1.5em;
+    color: #d32f2f; /* Vermelho do Homem-Aranha */
+}
+
+.botões__ancora {
+    text-decoration: none;
+    color: #d32f2f; /* Vermelho */
+    font-weight: bold;
+}
+
+/* Tópicos */
+.tópicos {
+    margin: 40px 0;
+    background-color: #f8f8f8; /* Cor de fundo neutra */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tópicos__link {
+    text-decoration: none;
+    color: #d32f2f; /* Vermelho */
+}
+
+/* Contato */
+.contato {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #d32f2f; /* Vermelho intenso */
+    color: #fff;
+}
+
+/* Rodapé */
+.rodapé {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
